@@ -58,12 +58,14 @@ print(datetime.datetime.now())
 
 #zipping
 
+print("Starting to zip downloaded torrent file pls wait...")
 folder_to_zip = '/home/Torrent'
-zip_file_name = 'torrent.zip'
+zip_file_name = 'torrent'
 
 shutil.make_archive(zip_file_name, 'zip', folder_to_zip)
 
 # Delete the folder and its contents
 shutil.rmtree(folder_to_zip)
 print(f"{zip_file_name} created successfully.")
+print("Now you can download torrent.zip from shell editor explorer")
 
