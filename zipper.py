@@ -1,14 +1,15 @@
-import shutil
 import subprocess
+import os
+import shutil
+
+magnet_link = input("Enter the magnet link: ")
+save_path = input("Enter the save path (e.g. /path/to/save/directory): ")
+
+if not os.path.exists(save_path):
+    os.makedirs(save_path)
 
 if shutil.which("transmission-cli") is None:
     print("transmission-cli is not installed.")
 else:
     subprocess.run(['transmission-cli', magnet_link, '-w', save_path])
-
-
-
-magnet_link = 'magnet:?xt=urn:btih:HASH'
-save_path = '/path/to/save/directory'
-
-subprocess.run(['transmission-cli', magnet_link, '-w', save_path])
+    print("download started")
