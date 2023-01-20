@@ -1,11 +1,14 @@
-import os
 import shutil
+import subprocess
 
-folder_to_zip = '/home/Torrent'
-zip_file_name = 'torrent.zip'
+if shutil.which("transmission-cli") is None:
+    print("transmission-cli is not installed.")
+else:
+    subprocess.run(['transmission-cli', magnet_link, '-w', save_path])
 
-shutil.make_archive(zip_file_name, 'zip', folder_to_zip)
 
-# Delete the folder and its contents
-shutil.rmtree(folder_to_zip)
-print(f"{zip_file_name} created successfully.")
+
+magnet_link = 'magnet:?xt=urn:btih:HASH'
+save_path = '/path/to/save/directory'
+
+subprocess.run(['transmission-cli', magnet_link, '-w', save_path])
