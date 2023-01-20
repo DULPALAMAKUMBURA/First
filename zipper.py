@@ -13,3 +13,9 @@ if shutil.which("transmission-cli") is None:
 else:
     subprocess.run(['transmission-cli', magnet_link, '-w', save_path])
     print("download started")
+    
+# Wait for download to finish
+    subprocess.run(['transmission-cli', '-l']) 
+# Stop seeding
+    subprocess.run(['transmission-cli', '--stop-seed', magnet_link])
+
