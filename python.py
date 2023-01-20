@@ -1,3 +1,7 @@
+python -m pip install --upgrade pip setuptools wheel && python -m pip install lbry-libtorrent wget torf && apt install python3-libtorrent
+
+
+
 import zipfile
 import os
 import libtorrent as lt
