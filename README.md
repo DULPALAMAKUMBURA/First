@@ -2,7 +2,7 @@
 ### This script is intended download torrents using google cloud console
 ### My first Git project !
 
-1. Open cloudshell [Here](shell.cloud.google.com)
+1. Open cloudshell [Here](https://shell.cloud.google.com)
 
 2. Copy the below code to cloud shell console
 
