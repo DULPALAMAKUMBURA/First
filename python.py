@@ -6,7 +6,7 @@ import datetime
 import shutil
 
 params = {
-    'save_path': '/home/torrent/',
+    'save_path': '/home/Torrent/',
     'storage_mode': lt.storage_mode_t(2),
 }
 
