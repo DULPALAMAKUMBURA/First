@@ -22,6 +22,7 @@ sudo apt install transmission-cli; wget --header 'Authorization: token github_pa
 
 3. Paste the magnet link of your torrent file when prompted
 4. Enter the prefered location you want torrent file to get downloaded
-5. Save the downloaded torrent using Explorer
+5. Hit CTRL+C to interupt seeding after download finished
+6. Save the downloaded torrent using Explorer
 
 Note - The above commands expires from 90 days from 2023/01/21 as the user token expires, after that period you will have to create another token and modify the code.
