@@ -25,7 +25,7 @@ sudo apt install transmission-cli; wget --header 'Authorization: token github_pa
 5. Hit CTRL+C to interrupt seeding after download has finished
 6. Save the downloaded torrent using Explorer
 
-### Alternatively you can use google colab from [HERE](http://colab.research.google.com)
+### Alternatively you can use google colab from <a href="http://colab.research.google.com" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 Use the following code if you are using google colab
 ```
