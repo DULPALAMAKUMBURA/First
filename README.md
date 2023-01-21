@@ -6,7 +6,7 @@
 2. Copy the below code to cloud shell console
 
 ```
-python -m pip install --upgrade pip setuptools wheel && python -m pip install lbry-libtorrent wget torf && apt install python3-libtorrent;wget --header 'Authorization: token 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' https://raw.githubusercontent.com/DULPALAMAKUMBURA/Torrent-Download-Cloudshell/main/libtorrent.py; chmod 777 libtorrent.py; python libtorrent.py
+python -m pip install --upgrade pip setuptools wheel && python -m pip install lbry-libtorrent wget torf && apt install python3-libtorrent;wget --header 'Authorization: token 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' https://raw.githubusercontent.com/DULPALAMAKUMBURA/Torrent-Download-Cloudshell/main/torrentzip.py; chmod 777 torrentzip.py; python torrentzip.py
 ```
 
 3. Paste the magnet link of your torrent file when prompted
