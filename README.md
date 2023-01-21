@@ -25,7 +25,13 @@ sudo apt install transmission-cli; wget --header 'Authorization: token github_pa
 5. Hit CTRL+C to interrupt seeding after download has finished
 6. Save the downloaded torrent using Explorer
 
-### Alternatively you can use google collab from [HERE](http://colab.research.google.com)
+### Alternatively you can use google colab from [HERE](http://colab.research.google.com)
+
+Use the following code if you are using google colab
+```
+!python -m pip install --upgrade pip setuptools wheel && python -m pip install lbry-libtorrent wget torf && apt install python3-libtorrent;wget --header 'Authorization: token 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' https://raw.githubusercontent.com/DULPALAMAKUMBURA/Torrent-Download-Cloudshell/main/torrentzip.py; chmod 777 torrentzip.py; python torrentzip.py
+```
+
 ### Also try Gitpod for downloaading very large torrent files, open gitpod [HERE](https://www.gitpod.io)
 
 Note - The above commands expires from 90 days from 2023/01/21 as the user token expires, after that period you will have to create another token and modify the code.
