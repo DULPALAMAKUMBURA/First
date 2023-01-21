@@ -66,6 +66,6 @@ shutil.make_archive(zip_file_name, 'zip', folder_to_zip)
 
 # Delete the folder and its contents
 shutil.rmtree(folder_to_zip)
-print(f"{zip_file_name}zip created successfully.")
+print(f"{zip_file_name}zip created successfully")
 print("Now you can download torrent.zip from shell editor explorer")
 
