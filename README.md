@@ -25,4 +25,7 @@ sudo apt install transmission-cli; wget --header 'Authorization: token github_pa
 5. Hit CTRL+C to interrupt seeding after download has finished
 6. Save the downloaded torrent using Explorer
 
+### Alternatively you can use google collab from [HERE](http://colab.research.google.com)
+### Also try Gitpod for downloaading very large torrent files, open gitpod [HERE](https://www.gitpod.io)
+
 Note - The above commands expires from 90 days from 2023/01/21 as the user token expires, after that period you will have to create another token and modify the code.
