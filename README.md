@@ -28,5 +28,6 @@ sudo apt install transmission-cli; wget --header 'Authorization: token github_pa
 ### Alternatively you can use google colab from <a href="https://colab.research.google.com/drive/1Kw2sSGgVvUNIGWAfc3x6RVkz-Uup5XkK?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 ### Also try Gitpod for downloaading very large torrent files, open gitpod [HERE](https://www.gitpod.io)
+Note: Use IntelliJ IDEA as editor
 
 Note - The above commands expires from 90 days from 2023/01/21 as the user token expires, after that period you will have to create another token and modify the code.
