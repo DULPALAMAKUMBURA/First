@@ -1,4 +1,4 @@
 import time
 while True:
-  ptint("Downloading")
+  print("Downloading")
   time.sleep(10)
