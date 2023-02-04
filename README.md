@@ -17,7 +17,7 @@ python3 -m pip install --upgrade pip setuptools wheel && python3 -m pip install 
 2. Copy the below code to cloud shell console
 
 ```
-sudo apt install transmission-cli; wget --header 'Authorization: token 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' https://raw.githubusercontent.com/DULPALAMAKUMBURA/Torrent-Download-Cloudshell/main/transmission.py; python transmission.py
+sudo apt install transmission-cli; wget --header 'Authorization: token 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' https://raw.githubusercontent.com/DULPALAMAKUMBURA/Torrent-Download-Cloudshell/main/transmission.py; python transmission.py
 ```
 
 3. Paste the magnet link of your torrent file when prompted
